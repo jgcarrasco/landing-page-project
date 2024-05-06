@@ -25,6 +25,10 @@ li {
     align-items: center;
 }
 
+.hero-background{
+    padding: 100px 0px;
+}
+
 .header {
     display: flex;
     width: 800px;
@@ -49,6 +53,7 @@ li {
     width: 800px;
     display: flex;
     justify-content: center;
+    gap: 40px;
 }
 
 .img {
@@ -56,4 +61,31 @@ li {
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+.hero-title {
+    font-size: 48px;
+    font-weight: bolder;
+    color: #f9faf8;
+}
+
+.img,
+.hero-left{
+    flex: 1;
+}
+
+.hero-left {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 8px;
+}
+
+.hero button {
+    color: white;
+    background-color: #3882f6;
+    font-weight: bold;
+    padding: 8px 24px;
+    border-radius: 4px;
+    border: none;
 }
