@@ -89,3 +89,43 @@ li {
     border-radius: 4px;
     border: none;
 }
+
+.placeholder {
+    width: 150px;
+    height: 150px;
+    border-style: solid;
+    border-color: #3882f6;
+    border-radius: 12px;
+}
+
+.information {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+    padding: 50px 0px;
+}
+
+.info-title {
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1f2937;
+}
+
+.cards {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 150px;
+    gap: 12px;
+    text-align: center;
+    color: #1f2937
+}
